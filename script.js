@@ -15,5 +15,73 @@ Oppgaver
 2. Lag en funksjon som legger sammen 2 tall
 3. Lag en funksjon med en variabel som har en array og console.log arrayet
 
-
 */
+
+const name = "Sonja"
+console.log(name)
+
+let age = 48
+console.log(age)
+
+console.log(typeof age)
+console.log(typeof name)
+
+let ingredienser = ["mel","egg","sukker", "melk","bakepulver"];
+console.log(ingredienser)
+
+
+function hilsen() {
+    console.log("Hello World")
+} 
+
+hilsen()
+
+function fruktkurv() {
+    let frukt = ["banan", "eple", "pære","druer", "apelsin"];
+    console.log(frukt)
+}
+fruktkurv()
+
+//DATATYPER//
+
+
+//Number
+
+let number = 23
+
+//String
+
+let firstName = "Sonja"
+
+//Boleoon
+
+let isTeaching = true;
+
+
+// Errordata
+
+/**
+ * Underfined
+ * Null
+ * Nan
+ */
+
+// Aray
+
+let shoppingList = ["såpe", "mel", "Fjørland"];
+
+let numberList = [0, 3, 5]
+
+//Object
+
+let firstObject = { firstName: "Sonja", age: 20, city:"Bergen"};
+
+
+function addnr() {
+    let bananas = 50;
+    let apples = 73;
+
+    let fruits = apples + bananas;
+     console.log("samlet antall frukt er: + " + fruits )
+}
+addnr();
