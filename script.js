@@ -42,6 +42,27 @@ function fruktkurv() {
 }
 fruktkurv()
 
+function fruktsalat() {
+    let banan = 3;
+    let eple = 2;
+    let pære = 1;
+    let druer = 8;
+    let apelsin = 1;
+
+    let frukt = banan+eple+pære+druer+apelsin;
+    console.log("samlet antal frukt er:+"+frukt)
+}
+fruktsalat()
+
+function kalkulator() {
+    let tall1 = 5
+    let tall2 = 8
+
+    let sum = tall1+tall2;
+    console.log(sum)
+}
+kalkulator()
+
 //DATATYPER//
 
 
