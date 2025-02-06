@@ -20,8 +20,20 @@ Oppgaver
 const name = "Sonja"
 console.log(name)
 
+const etternavn = "Stefanovic"
+console.log(etternavn)
+
 let age = 48
 console.log(age)
+
+let kjønn = "kvinne"
+console.log(kjønn)
+
+let sivilstand = "gift"
+console.log(sivilstand)
+
+let barn = "1 jente"
+console.log(barn)
 
 console.log(typeof age)
 console.log(typeof name)
